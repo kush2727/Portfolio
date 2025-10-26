@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const RESUME_PDF_URL = "https://drive.google.com/file/d/14AldSXt_Mpai2itrU5BjUB9YKFIFqF99/view?usp=drive_link"; // Update to your actual resume PDF URL or path
+const RESUME_PDF_URL = "https://drive.google.com/drive/folders/1ecEkN5opah-ESTHPc1eJVl-Ydoa4p2r_"; // Update to your actual resume PDF URL or path
 
 export default function ResumeSection() {
   const [showPreview, setShowPreview] = useState(false);
